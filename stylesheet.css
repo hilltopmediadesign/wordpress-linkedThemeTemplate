@@ -1,0 +1,362 @@
+/*
+
+  
+
+*/
+
+  body {
+    padding:0 0;
+    margin:0 auto;
+    background-color:rgb(244,244,244);
+ 
+  }
+
+
+  a:link{
+    
+  }
+
+  a:active{
+    
+  }
+
+  a:hover{
+    
+  }
+
+  a:visited{
+    
+  }
+
+
+
+  /* main container div*/
+  #container{
+    margin: 0 auto;
+    width:980px;
+    
+  }
+
+  #header{
+    height:40px;
+    background-color:#2B2168;
+    margin: 0 auto;
+    text-align:center;
+  }
+
+
+  #leftSidebar{
+    display:none;
+    float:left;
+    width:200px;
+    background-color:#F3F3F3;
+    
+  }
+  
+  #insideContainer{
+   
+
+     
+  }
+
+  #main{
+    float:left;
+    width:630px;
+    padding-left:25px;
+    padding-right:25px;
+   
+    
+  }
+
+  #rightSidebar{
+    float:right;
+    width:300px;
+  }
+
+  #footer{
+    clear:both;
+    height:50px;
+    background-color:#6A96D3;
+  }
+  
+  /* main text heading */
+  .heading{
+    font-family:Georgia;
+    font-size:22pt;
+    margin-left:15px;
+    margin-top:10px;
+    color:gray;
+  }
+
+  /* Enable spans w/ js code to show cursor on roll over */
+  .jclick{
+    cursor:pointer;
+  }
+
+
+ /* Drop Down*/
+  
+  /* Set look and feel of main nav */
+  #nav {
+
+    margin: 0px auto;
+    padding: 0 1em;
+    font-family: Georgia;
+    font-size: 14pt;
+    color: #FFF;   
+    
+  }
+
+  /* spacing between links */
+  #nav a {
+     
+      color: #FFF;
+      display: block;
+      margin: 0;
+      padding: 8px 20px; /* vspace | hspace between links */
+      text-decoration: none;
+      
+  }
+
+  /* set menu look on initial rollover*/
+  #nav ul {
+      background: repeat-x scroll 0 0 #6A96D3 /* rollover submenu box color*/;
+      /* border: 1px solid #FFF; rollever submenu border color */
+      
+      /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7); rollover box shadow settings*/
+      display: none;
+      left: 10px; /* Left offset of submenu box */
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      top: 39px; /* vertical offset of menu items !! Match Height Of Header then subtract 1px*/
+      width: 175px;/* width of submenu box item */
+
+  }
+
+  /* set item roll over */
+  #nav ul a:hover {
+      background: repeat-x scroll 0 0px #4380D3 /* color of highlighted box*/  !important;
+      border-radius: 0 0 0 0;
+      margin-left: 0;
+      color: #fff !important; /* Text color of highlighted roll over sublink*/
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      width:135px; /* Match above width and subtract 2x h spacing between links */
+  }
+  
+  /* Font Size Of SubMenu Items */
+  #nav li:hover > ul {
+      display: block;
+      font-size:14pt;
+      text-align:left;
+      
+  }
+
+  #nav li {
+      float: left;
+      list-style: none outside none;
+      margin: 0 0;
+      padding: 0 0 0px;
+      position: relative;
+      
+  }
+  
+
+  
+  #nav a:hover {
+      /* background: none repeat scroll 0 0 #000000; */
+      color: #000; /* Color of drop down link text */
+  }
+  
+  #nav .current a, #nav li:hover > a {
+      /* border-top: 1px solid #F8F8F8; Border of highlighted item */
+      /* box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); Shadow of selected item*/
+      color: #FFF; /*Color of highlighted main menu item text on roll over*/
+     
+  }
+  
+  #nav ul li:hover a, #nav li:hover li a {
+
+  }
+  
+
+
+  
+  
+  #nav ul li {
+      /*float: left;*/
+      margin: 0;
+      padding: 0;
+      
+  }
+  
+  #nav ul a {
+      /* font-weight: normal;
+      text-shadow: 0 1px 0 #FFFFFF; */
+  }
+  
+  #nav ul ul {
+      left: 200px;
+      top: 0px;
+      width: 200px;
+      
+      /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7); rollover box shadow settings*/
+  }
+  
+ 
+  
+  #nav ul li:first-child > a {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      
+  }
+  
+  #nav ul li:last-child > a {
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+  }
+  
+  #nav:after {
+      clear: both;
+      content: ".";
+      display: block;
+      height: 0;
+      line-height: 0;
+      visibility: hidden;
+  }
+  
+  #nav {
+      display: inline-block;
+  }
+  
+  /* End Dropdown */ 
+
+
+  /*****************/
+
+
+  /* wp css */
+  .entry{
+    padding:15px;
+    margin-top:15px;
+    background-color:#fff;
+    border:1px solid white;
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    
+  }
+  .entry, 
+  .entry a:link, 
+  .entry a:visited,
+  .entry{
+    font-family:Georgia;
+    font-size:16pt;
+    color:#808080;
+    text-decoration:none;
+  }
+
+  .entry a:hover{
+    text-decoration:underline;
+  }
+
+  .postLink a:link,
+  .postLink a:visited,
+  .postLink{
+    font-family:Georgia;
+    font-size:20pt;
+    color:#808080;
+    margin:4px 0;
+    font-weight:bold;
+    text-decoration:none;   
+  }
+
+  .postLink a:hover{
+    font-family:Georgia;
+    font-size:20pt;
+    color:#404040;
+    font-weight:bold;
+    text-decoration:underline;   
+  }
+
+
+  .postInfo,
+  .postInfo a:link,
+  .postInfo a:visited{
+    font-family:Arial;
+    font-size:10pt;
+  }
+
+
+  /* Sidebar */
+ 
+  /* removes bullets and adjusts margin */
+  #sidebar, #sidebar ul, #sidebar li{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0px;
+
+  }
+
+  /* indents line items */
+  #sidebar li, #sidebar li a:link,#sidebar li a:visited{
+    margin-left: 5px;
+    text-decoration:none;
+    font-family:Georgia;
+    color:#606060;
+  }
+
+  #sidebar li a:hover, #sidebar li li a:hover{
+    font-weight:bold;
+  }
+
+  #sidebar li li a:link, #sidebar li li a:visited{
+    font-size:12pt;
+    line-height:25px;
+  }
+
+  /* CSS for all widgets */
+  .widget{
+    
+    margin-bottom:40px;
+
+  }
+
+  /* searchbar css */
+  #search-2{
+    
+    padding:20px !important;
+    margin-left:25px !important;
+    background-color:#606060;
+    text-align:center;
+    width:220px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
+  }
+  
+  #searchsubmit{
+    margin-top:15px;
+  }
+  
+  .screen-reader-text{
+    color:#fff;
+    font-family:Georgia;
+   
+
+  }
+
+  .widgettitle{
+    line-height:43px;
+    padding-left:10px;
+    color:#fff;
+    height:43px;
+
+  }
+ 
+  .widgettitle{
+    width:295px;
+    background-color:#909090;
+
+  }
