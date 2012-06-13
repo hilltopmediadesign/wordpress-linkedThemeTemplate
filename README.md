@@ -55,7 +55,7 @@ This prevents problems with things like category URLs.
 
 You may want to set "&lt;?php $sitePath ?&gt; as a hot key if you use a program like Texter (google it),  for speed of coding.
 
-9. Now all your site files reside in one folder, just like a standard website.  You no longer have to dip into the wp-content/themes folder to make adjustments.
+Now all your site files reside in one folder, just like a standard website.  You no longer have to dip into the wp-content/themes folder to make adjustments.
 
 Please feel free to clone and add features.
 
