@@ -1,5 +1,5 @@
 <?php
 
-  $sitePath='http://www.luminaia.com/AdultADHDSupport.com/';
+  $sitePath='http://www.domain.com/siteFolder';
 
 ?>
