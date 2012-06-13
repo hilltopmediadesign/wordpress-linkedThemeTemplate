@@ -17,6 +17,7 @@ wp/ (wordpress theme files like: functions.php, etc... that are linked to from t
 index.php<br>
 wp-index.php (file redirected from wp-site/wp-content/themes/LinkedTheme/)<br>
 wp-front-page.php</p><br><br>
+It's a bit more work in setup, but it makes editing the site far cleaner and easier to work with (in my opinion).  This is really designed for web designer who are use to non-wordpress sites (like myself).<br><br>
 <strong>Short Version:</strong>
 
 1. Install WP in target sub directory - ex: http://www.foo.com/myNewSite.com/wp-site (see Long Version)
@@ -56,6 +57,8 @@ This prevents problems with things like category URLs.
 You may want to set "&lt;?php $sitePath ?&gt; as a hot key if you use a program like Texter (google it),  for speed of coding.
 
 Now all your site files reside in one folder, just like a standard website.  You no longer have to dip into the wp-content/themes folder to make adjustments.
+
+The site admin will be located in: http://www.domain.com/Website.com/wp-site/wp-admin
 
 Please feel free to clone and add features.
 
