@@ -8,15 +8,15 @@ This would allow non wordpress files easily accessed using a standard URL refere
 
 The new setup would look like this:
 
-http://www.domain.com/Website.com/
-<p style="padding-left: 30px;">images/
-js/
-php/
-wp-site/ (all wordpress files)
-wp/ (wordpress extras like functions.php, etc... that get linked to)
-index.php
-wp-index.php (file redirected from wp-site/wp-content/themes/LinkedTheme/)
-wp-front-page.php</p>
+http://www.domain.com/Website.com/<br>
+<p style="padding-left: 30px;">images/<br>
+js/<br>
+php/<br>
+wp-site/ (all wordpress files)<br>
+wp/ (wordpress extras like functions.php, etc... that get linked to)<br>
+index.php<br>
+wp-index.php (file redirected from wp-site/wp-content/themes/LinkedTheme/)<br>
+wp-front-page.php</p><br><br>
 <strong>Short Version:</strong>
 
 1. Install WP in target sub directory - ex: http://www.foo.com/myNewSite.com/wp-site (see Long Version)
