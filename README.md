@@ -2,7 +2,7 @@ Tested on: Wordpress 3.4
 
 <strong>The Goal:</strong>
 
-Have ALL wordpress files installed in subfolder and ALL theme files (html, images, js, etc..) exist in root.
+Have ALL wordpress files installed in subfolder and ALL theme files (html, images, js, etc..) exist in root.  The main wordpress theme files ALSO exist in root (functions.php, sidebar.php, etc...).  These are linked from inside the theme folder (wp-content/themes/themeName/) to root folder.
 
 This would allow non wordpress files easily accessed using a standard URL reference: http://www.Website.com/news.htm. In a standard setup this requires placing the non wordpress file amidst the huge list of of wordpress files .
 
