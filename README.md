@@ -13,7 +13,7 @@ http://www.domain.com/Website.com/<br>
 js/<br>
 php/<br>
 wp-site/ (all wordpress files)<br>
-wp/ (wordpress extras like functions.php, etc... that get linked to)<br>
+wp/ (wordpress theme files like: functions.php, etc... that are linked to from theme folder)<br>
 index.php<br>
 wp-index.php (file redirected from wp-site/wp-content/themes/LinkedTheme/)<br>
 wp-front-page.php</p><br><br>
