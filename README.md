@@ -1,3 +1,5 @@
+[not completed yet]
+
 Tested on: Wordpress 3.4
 
 <strong>The Goal:</strong>
