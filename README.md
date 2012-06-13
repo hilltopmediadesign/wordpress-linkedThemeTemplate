@@ -1,4 +1,4 @@
-For: Wordpress 3.3.1
+Tested on: Wordpress 3.4
 
 <strong>The Goal:</strong>
 
